@@ -2,7 +2,8 @@
   <headerComponent></headerComponent>
   <SliderComponent></SliderComponent>
   <div class="center">
-    <LastArticles></LastArticles>
+    <!-- <LastArticles></LastArticles> -->
+    <router-view></router-view>
     <SidebarComponent></SidebarComponent>
     <div class="clearfix"></div>
   </div>
@@ -13,7 +14,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import SliderComponent from './components/SliderComponent.vue'
 import SidebarComponent from './components/SidebarComponent.vue'
-import LastArticles from './components/LastArticles.vue'
+// import LastArticles from './components/LastArticles.vue'
 import FooterComponent from './components/FooterComponent.vue'
 
 export default {
@@ -22,7 +23,7 @@ export default {
     HeaderComponent,
     SliderComponent,
     SidebarComponent,
-    LastArticles,
+    // LastArticles,
     FooterComponent
 }
 }

@@ -13,20 +13,21 @@
                 <nav id="menu">
                     <ul>
                         <li>
-                            <a href="index.html">Inicio</a>
+                            <router-link to="/home">Inicio</router-link>
                         </li>
                         <li>
-                            <a href="blog.html">Vida Laboral</a>
+                            <router-link to="/blog">blog</router-link>
+
                         </li>
                         <li>
-                            <a href="formulario.html">Formulario</a>
+                            <router-link to="/form">formulario</router-link>
                         </li>
                         <li>
-                            <a href="#">Pagina 1</a>
-                        </li>
+                            <router-link to="/pagina">pagina</router-link>
+                        </li>       
                         <li>
-                            <a href="#">Pagina 2</a>
-                        </li>                            
+                            <router-link to="/hello">pagina2</router-link>
+                        </li>                       
                     </ul>
                 </nav>
 
